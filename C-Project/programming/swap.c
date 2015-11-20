@@ -16,6 +16,8 @@ int main(){
 	y = x - y;
 	x = x - y;
 	
+	//use bitwise  ^ operator better performance 
+	
 	//output
 	printf("x = %d y = %d\n", x, y);
 	return 0;
